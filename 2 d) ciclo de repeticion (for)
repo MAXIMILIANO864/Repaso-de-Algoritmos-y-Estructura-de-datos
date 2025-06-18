@@ -1,0 +1,6 @@
+d) Escribe un programa que pida al usuario que ingrese una palabra y luego muestre cada letra de la palabra en una linea separada.
+Ciclos de repetición(for)
+
+palabra = input ("Ingrese una palabra: ")
+  for letra in palabra:
+    print (letra)
