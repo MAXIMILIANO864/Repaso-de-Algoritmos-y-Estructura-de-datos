@@ -1,0 +1,13 @@
+a) Escribe un programa que pida al usuario que adivine un número secreto generado aleatoriamente. El programa debe dar pistas al usuario diciéndole, su el número ingresado es mayor o menor que el número secreto.
+Ciclos de repeticion (While)
+
+import random
+secreto = random.randint(1,100)
+adivina = int(input("Adivina el número(entre 1 y 100): "))
+while adivina != secreto:
+  if adivina < secreto:
+    print ("Demasiado bajo")
+else:
+  print ("Demasiado alto")
+adivina = int(input("Intente de nuevo. "))
+print ("Correcto! Adivinaste el número.")
