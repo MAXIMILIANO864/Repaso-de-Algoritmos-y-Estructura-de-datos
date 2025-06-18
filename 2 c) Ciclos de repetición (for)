@@ -1,0 +1,8 @@
+c)  Escribe un programa que muestre las tablas de multiplicar del 1 al 10
+Ciclos de repetición (for)
+
+for i in range (1,11):
+  print (f "tabla del {i}")
+for j in range (1,11):
+  print (f"{i}x{j} = {i*j")
+  print ()
