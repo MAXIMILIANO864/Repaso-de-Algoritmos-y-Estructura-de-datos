@@ -1,0 +1,8 @@
+c) Escribir un programa que pida al usuario que ingrese su edad y determine si es mayor de edad (18 años o más) o menor de edad.
+Toma de decisiones
+
+edad = int (input("Ingrese su edad"))
+if edad > 18:
+  print ("Eres mayor de edad.")
+else:
+  print ("Eres menor de edad")
