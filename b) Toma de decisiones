@@ -1,0 +1,10 @@
+b) Escribe un programa que pida al usuario que ingrese 2 números y determine cuál es el número más grande.
+Toma de decisiones
+num1 = float(input("Ingrese numero"))
+num2 = float(input("Ingrese otro numero"))
+if num1 > num2:
+  print ("El primer numero es mayor")
+elif num2 > num1:
+  print ("El segundo número es mayor")
+else:
+  print ("Ambos numeros son iguales")
