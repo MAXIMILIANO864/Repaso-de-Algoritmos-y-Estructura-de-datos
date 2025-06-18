@@ -1,0 +1,9 @@
+e) Escribe un programa que pida al usuario que ingrese un número y luego muestre la suma de los numeros impares desde 1 hasta ese número.
+Ciclos de repetición (for)
+
+numero = int(input("Ingrese un número"))
+suma = 0
+for i in range (1, numero + 1):
+  if i % 2 != 0:
+    suma += i
+  print ("La suma de los impares es: ", suma);
