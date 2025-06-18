@@ -1,0 +1,7 @@
+b) Escribe un programa que calcule la suma de los primeros 100 numeros naturales (es decir 1+2+3+4+5+100)
+Ciclos de repeticion (for)
+
+suma = 0
+for i in range (1,101):
+  suma += i
+  print ("La suma es: " , suma);
