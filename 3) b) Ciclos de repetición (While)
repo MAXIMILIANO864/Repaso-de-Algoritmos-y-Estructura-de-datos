@@ -1,0 +1,10 @@
+b) Escribe un programa que pida al usuario qu ingrese una cadena de texto y luyego cuente cuántas veces aparece una letra específica en la cadena.
+Ciclos de repetición (While)
+
+texto = input("Ingrese una cadena de texto: ")
+letra = input("Ingrese una letra para contar: ")
+contador = 0
+for caracter in texto:
+  if caracter == letra:
+    contador += 1
+print (f"La letra'{letra}' aparece {contador} veces." )
