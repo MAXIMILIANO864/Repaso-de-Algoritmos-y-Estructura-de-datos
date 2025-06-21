@@ -1,0 +1,23 @@
+d) Escribe un programa que simule entre dos corredores. Cada corredor avanza un número de metros generado aleatoriamente en cada iteración del siglo. El programa debe mostrar quien ganó la carrera y en cuantos segundos.
+Ciclos de repetición (While).
+import random
+import time
+meta = 100
+corredor1 = 0
+corredor2 = 0
+segundos= 0
+while corredor1 < meta and corredor2 < meta:
+  avance1 = random.randint(1,10)
+  avance2 = random.randint(1,10)
+  corredor1 += avance1
+  corredor2 += avance2
+  segundos += 1
+  print(f"Segundo {segundos}: corredor1 = {corredor1}m, corredor2 = {corredor2}m")
+  time.sleep(0.3) # pausa para que se vea en "tiempo real"
+  #Mostrar el resultado final
+  if corredor1 >= meta and corredor2 >= meta:
+    print("Empate!")
+  elif corredor1 >= meta:
+      print (f"Ganó el corredor 1 en {segundos} segundos!")
+  else:
+      print (f"Ganó el corredor 2 en {segundos} segundos!")
